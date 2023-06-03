@@ -27,9 +27,27 @@
         textarea:focus {
             outline: none;
         }
+
+        button {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        body:fullscreen button {
+            display: none;
+        }
         </style>
     </head>
     <body>
         <textarea></textarea>
+        <button>go fullscreen</button>
     </body>
+    <script>
+        document.querySelector('button').addEventListener('click', async () => {
+            if (!document.fullscreenElement) {
+                await document.body.requestFullscreen();
+            }
+        });
+    </script>
 </html>
