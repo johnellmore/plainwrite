@@ -6,4 +6,6 @@ This is a distraction-free, no-frills, locally-runnable writing interface. It's 
 
 **Run it yourself:** save [`write.html`](https://raw.githubusercontent.com/johnellmore/plainwrite/main/write.html) to your computer and open it.
 
+*Pro tip: In Firefox, you can press Cmd+S (or Ctrl+S) to save the page and all of your writing into a single HTML file.*
+
 https://github.com/johnellmore/plainwrite/assets/495475/93f63120-eb0e-4d6a-bc22-7d8fe5d0f6b1
